@@ -105,7 +105,7 @@ def go(config: DictConfig):
                 json.dump(dict(config["modeling"]["random_forest"].items()), fp)  # DO NOT TOUCH
 
             _ = mlflow.run(
-                os.path.join(root_path, "train_random_forest"),
+                os.path.join(root_path, "src", "train_random_forest"),
                 "main",
                 parameters={
                     "trainval_artifact": "trainval_data.csv:latest",
