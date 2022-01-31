@@ -80,7 +80,7 @@ def go(args):
     # Then fit it to the X_train, y_train data
     logger.info("Fitting")
 
-    sk_pipe.fit(X_train[processed_features], y_train)
+    sk_pipe.fit(X_train, y_train)
 
     # Compute r2 and MAE
     logger.info("Scoring")
@@ -102,8 +102,8 @@ def go(args):
         sk_pipe,
         "random_forest_dir",
         serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE,
-        signature=infer_signature(X_val[processed_features], y_pred),
-        input_example=X_val[processed_features].iloc[:2]
+        signature=infer_signature(X_val, y_pred),
+        input_example=X_val.iloc[:2]
     )
 
     artifact = wandb.Artifact(
