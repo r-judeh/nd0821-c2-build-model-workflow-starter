@@ -34,6 +34,7 @@ In this project you will build such a pipeline.
 
 ## Links
 [Weights & Biases project](https://wandb.ai/raja-judeh/nyc_airbnb/overview?workspace=user-raja-judeh)
+[Github Repo](https://github.com/r-judeh/nd0821-c2-build-model-workflow-starter)
 
 ## Preliminary steps
 ### Fork the Starter kit
