@@ -9,6 +9,7 @@ In this project you will build such a pipeline.
 ## Table of contents
 
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
+- [Links](#links)
 - [Preliminary steps](#preliminary-steps)
   * [Fork the Starter Kit](#fork-the-starter-kit)
   * [Create environment](#create-environment)
@@ -30,6 +31,9 @@ In this project you will build such a pipeline.
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
 - [Cleaning up](#cleaning-up)
+
+## Links
+[Weights & Biases project](https://wandb.ai/raja-judeh/nyc_airbnb/overview?workspace=user-raja-judeh)
 
 ## Preliminary steps
 ### Fork the Starter kit
